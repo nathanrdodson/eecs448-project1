@@ -1,0 +1,14 @@
+/*
+ * All elements would are housed under a container with the className equal
+ * to component name (e.g. .MainView and .ShipPlacementView)
+ */
+
+.MainView {
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--size);
+}
+
+.MainView button {
+  padding: var(--size);
+}
